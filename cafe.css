@@ -51,21 +51,35 @@ hr {
 .secondhr {
     margin-top: 25px;
 }
-.item p {
+
+.a p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.flavor, .dessert {
+.b {
     text-align: left;
     width: 75%;
 }
 
-.price {
+.c {
     text-align: right;
     width: 25%;
+}
+
+a, .a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, .a:hover {
+    color: brown;
+}
+
+a:active, .a:active{
+    color: white;
 }
 
 /*footer*/
@@ -73,19 +87,20 @@ footer {
     font-size: 14px;
 }
 
-a {
+.aa {
     color: black;
+    text-decoration: none;
 }
 
-a:visited {
+.aa:visited {
     color: brown;
 }
 
-a:hover {
+.aa:hover {
     color: white;
 }
 
-a:active {
+.aa:active {
     color: white;
 }
 
